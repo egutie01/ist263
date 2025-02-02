@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head> 
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <h1>Contact</h1>
+        <p>Emily Gutierrez</p>
+        <p>900 S Crouse Ave
+        <br> Syracuse, NY 13244</p>
+        <a href="www.linkedin.com/in/emilygutierrez2015"><a>My Linkedln Profile</a>
+    </body>
