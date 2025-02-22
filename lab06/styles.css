@@ -1,4 +1,3 @@
 body {font-family: Verdana, sans-serif}
 h1, h2 {color: #C71585}
-.special {color:purple}
-.evenrow {color: #FFC0CB}
+.evenrow {background-color: #FFC0CB}
