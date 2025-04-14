@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berry Sweet Creamery Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/nts7ykj.css">
+</head>
+
+<body>
+    <div class="logo"><img src="images/logo.svg" alt="Logo"></div>
+    <nav>
+        <a href="home.html">Home</a> <span>|</span>
+        <a href="menu.html">Menu</a> <span>|</span>
+        <a href="contact.html">Contact & Support Us</a> 
+    </nav>
+
+    <h1>Menu</h1>
+    <img src="images/menu.jpg" alt="Menu Title Image">
+        <article>
+            <h4>Ice Cream Sandwich</h4>
+            <p>$4.75 | 500 Calories</p>
+            <img src="images/sandwich.jpg" alt="Ice Cream Sandwich Image">
+        </article>
+        <article>
+            <h4>Ice Cream Sundae</h4>
+            <p>$7.25 | 700 Calories</p>
+            <img src="images/sundae.jpg" alt="Ice Cream Sundae Image">
+        </article>
+        <article>
+            <h4>Milkshake</h4>
+            <p>$6.50 | 800 Calories</p>
+            <img src="images/milkshake.jpg" alt="Milkshake Image">
+        </article>
+        <article>
+            <h4>Ice Cream Cake</h4>
+            <p>$27.50 | 4500 Calories</p>
+            <img src="images/cake.jpg" alt="Ice Cream Cake Image">
+        </article>
+        <article>
+            <div>
+            <h2>Flavors</h2>
+            <p>Classics: Vanilla Bean, Wild Strawberry & Chocolate Bliss
+                <br>
+                Additional Flavors: Honey Lavender, Strawberry Lime, Berry Sweet, Cherry Chocolate, Salted Caramel Apple, Mocha Almond, Mint Chip, Pumpkin Cinnamon, Rosemary Citrus, Pineapple Coconut, Chocolate Hazelnut, Pomegranate Raspberry , Blackberry Lemon
+            </p>
+                <h4>One Scoop</h4>
+                <p>$3.00 | 200 Calories</p>
+            </div>
+            <img src="images/flavors.jpg" alt="Flavors Image">
+        </article>
+        <section>
+            <h2>To-Go Pint</h2>
+            <p>$10.00 | 1,350 Calories</p>
+            <img src="images/pint.jpg" alt="To-Go Pint Image">
+        </section>
+        <p>*All calories are estimated and dependent on the flavors, toppings, and customization.</p>
+        
+
+        <div class="form">
+            <h2>Catering</h2>
+            <p>Hosting a special event? Delight your guests with personalized ice cream offerings! Fill out your information below.</p>
+            <form action="https://formspree.io/f/mzzdvzeq" method="POST">
+             <label for="fname">First name:</label>
+             <input type="text" id="fname" name="fname"><br>
+
+             <label for="lname">Last name:</label>
+             <input type="text" id="lname" name="lname"> <br>
+
+             <label for="email">Email:</label>
+             <input type="text" id="email" name="email"> <br>
+
+             <label for="date">Event Date:</label>
+             <input type="text" id="date" name="date">
+
+            <br>
+             <label for="type">Type of Event:</label>
+             <select id="type" name="type">
+               <option value="wedding">Wedding</option>
+               <option value="anniversary">Anniversary</option>
+               <option value="birthday">Birthday</option>
+               <option value="family">Family Reunion</option>
+               <option value="graduation">Graduation</option>
+               <option value="school">School Event</option>
+               <option value="corporate">Corporate Event</option>
+               <option value="other">Other</option>
+             </select>
+             <br>
+             <label for="number">Number of Attendees:</label>
+             <input type="number" id="number" name="number"> <br>
+         
+             <p>Allergies/Dietary Restrictions/Preferences:</p>
+                <textarea name="message" rows=8 cols=60>
+                </textarea><br>
+             <input type="submit">
+           </form>
+           <p>Look out for a follow-up email from catering@berrysweet.com with your name and details of the events for a price estimate.</p>
+          </div>
+
+
+    <footer>
+        &copy;2025
+   </footer>
+</body>
+</html>
