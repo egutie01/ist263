@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style> .row1 {display: flex;}
+            .address, .links, .maps, .form { margin: 20px;}
+                .row2 {display: flex}
+                .row1 {flex: 1; background-color: #f7b5ec; border-radius: 1em;
+                margin-bottom: 30px;}
+                .row2 {flex: 1; background-color: #f7b5ec; border-radius: 1em; }
+                .row2 .form { max-width:50%}
+                .row2 .maps { max-width:50%}
+                .row2 { flex-wrap: wrap; }
+textarea, input, select, button { width: 100%}
+        
+        </style>
+      </head>
+
+    <body>
+      <a href="#contactmain" class="skip">Skip to main content</a>
+      <nav>
+        <a href="index.html">Home</a> <span>|</span>
+        <a href="lab04.html">Skills</a> <span>|</span>
+        <a href="Contact.html">Contact</a> 
+    </nav>
+    
+    <section id="contactmain">
+        <h1>Contact</h1>
+        <div class="row1">
+          <div class="address">        
+              <p>Emily Gutierrez</p>
+              <p>Syracuse University 
+             <br>   900 S Crouse Ave
+              <br> Syracuse, NY 13244</p> 
+          </div>
+          <div class="links">        
+            <p><a href= "mailto:egutie01@syr.edu">Emily Gutierrez Email</a>
+            </p><a href="http://www.linkedin.com/in/emilygutierrez2015">My Linkedln Profile</a>
+            <br>
+            <a href="http://www.linkedin.com/in/emilygutierrez2015"><img src="../images/logo-sized.png" alt="LinkedIn Logo"> </a>
+          </div>
+       </div>
+      </section>
+      <section>
+       <div class="row2">
+       <div class="form">
+        <h2>Contact Form</h2>
+        <form action="https://formspree.io/f/mzzdvzeq" method="POST">
+         <label for="fname">First name:</label><br>
+         <input type="text" id="fname" name="fname"><br>
+         <label for="lname">Last name:</label><br>
+         <input type="text" id="lname" name="lname">
+     <br>
+     <br>
+         <label for="relation">How do you know me:</label>
+         <select id="relation" name="relation">
+           <option value="club">Clubs</option>
+           <option value="linkedin">Linkdln</option>
+           <option value="word">Word of Mouth</option>
+           <option value="class">Class</option>
+           <option value="none">None of These</option>
+         </select>
+
+
+         <p>Please type your question below.</p>
+<textarea name="message" rows="10" cols=120>
+                 
+             </textarea>
+     <br>
+         <input type="submit">
+       </form>
+      </div>
+
+          <iframe class="maps" src="https://shorturl.at/uVQh5"   height= "400" width="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+       </div>
+
+    </section>
+       
+    
+
+    </body>
