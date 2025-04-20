@@ -7,7 +7,7 @@ h2 {color: #b5277a;}
 nav { background-color: #2a004f;
     padding: 10px;
     margin-bottom: 30px}
-nav a { color: #fffbf7}
+nav a, nav span { color: #fffbf7}
 nav a:hover { background-color: #d62976}
 .skill {display: flex; flex: 75%; justify-content: space-around}
 aside {flex: 25%; padding: 2.5em; background-color: #831a4a; color: #fffbeb; border-radius: 1em}
@@ -15,6 +15,7 @@ aside {flex: 25%; padding: 2.5em; background-color: #831a4a; color: #fffbeb; bor
 p, h1, .flexbox2 {margin: 3em 3em 0em 3em}
 p {width: 63%}
 
+#otherskills {color:white}
 p {font-size: 1em}
 h1 {font-size: 3em}
 h2 {font-size: 2em}
