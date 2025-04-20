@@ -1,16 +1,16 @@
 body {background-color: #fff2eb;
       color: #421e71}
-a { color: #962fbf}
+a { color: #4c006c}
 h1{   color: #b5277a; text-align: center;}
-h2 {color: #fff2eb;}
+h2 {color: #b5277a;}
 
-nav { background-color: #deb9ff;
+nav { background-color: #2a004f;
     padding: 10px;
     margin-bottom: 30px}
-nav a { color: #935300}
+nav a { color: #fffbf7}
 nav a:hover { background-color: #d62976}
 .skill {display: flex; flex: 75%; justify-content: space-around}
-aside {flex: 25%; padding: 2.5em; background-color: #d62976; color: #fff2eb; border-radius: 1em}
+aside {flex: 25%; padding: 2.5em; background-color: #831a4a; color: #fffbeb; border-radius: 1em}
 .flexbox2 {display: flex; margin: 2em}
 p, h1, .flexbox2 {margin: 3em 3em 0em 3em}
 p {width: 63%}
