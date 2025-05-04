@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="ice cream icon" type="image/x-icon" href="images/favicon.ico">
     <title>Berry Sweet Creamery Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/nts7ykj.css">
@@ -10,7 +11,8 @@
 
 <body>
     <header>
-        <div class="logo"><a href="home.html"></a><img src="images/logo.svg" alt="Logo"></div>
+        <a href="#main2" class="skip">Skip to main content</a>
+        <div class="logo"><a href="home.html"><img src="images/logo.svg" alt="Logo"></a></div>
         <nav>
             <a href="menu.html">Menu</a> <span>|</span>
             <a href="contact.html">Contact & Support Us</a> 
@@ -18,28 +20,27 @@
     </header>
 <main class="menu">
     <h1>Menu</h1>
-    <!--<img src="images/menu.jpg" alt="Menu Title Image">-->
 </main>
     <section class="menuitems">
         <article class="menu">
-            <h4>Ice Cream Sandwich</h4>
+            <img src="images/sandwich.jpg" alt="Chocolate Chip Cookie Ice Cream Sandwich">
+            <h3>Ice Cream Sandwich</h3>
             <p>$4.75 | 500 Calories</p>
-            <img src="images/sandwich.jpg" alt="Ice Cream Sandwich Image">
         </article>
         <article class="menu">
-            <h4>Ice Cream Sundae</h4>
+            <img src="images/sundae.jpg" alt="Strawberry Ice Cream Sundae">
+            <h3>Ice Cream Sundae</h3>
             <p>$7.25 | 700 Calories</p>
-            <img src="images/sundae.jpg" alt="Ice Cream Sundae Image">
         </article>
         <article class="menu">
-            <h4>Ice Cream Cake</h4>
+            <img src="images/cake.jpg" alt="Ice Cream Cake">
+            <h3>Ice Cream Cake</h3>
             <p>$27.50 | 4500 Calories</p>
-            <img src="images/cake.jpg" alt="Ice Cream Cake Image">
         </article>
         <article class="menu">
-            <h4>Milkshake</h4>
+            <img src="images/milkshake.jpg" alt="Strawberry Milkshake">
+            <h3>Milkshake</h3>
             <p>$6.50 | 800 Calories</p>
-            <img src="images/milkshake.jpg" alt="Milkshake Image">
         </article>
         
         <article class="flavors">
@@ -54,13 +55,13 @@
                 <p>$3.00 | 200 Calories</p>
             </div>
             <div>
-                <img src="images/flavors.jpg" alt="Flavors Image">
+                <img src="images/flavors.jpg" alt="Sprinkles around five ice cream cones">
             </div>
         </div>
         </article>
     </section>
         <section class="pint">
-            <img src="images/pint.jpg" alt="To-Go Pint Image">
+            <img src="images/pint.jpg" alt="Ice Cream to-go containers">
         <div class="pinttext">
             <h2>To-Go Pint</h2>
             <p>$10.00 | 1,350 Calories</p>
@@ -73,7 +74,8 @@
             <h2>Catering</h2>
             <p>Hosting a special event? Delight your guests with personalized ice cream offerings! Fill out your information below.</p>
             <form action="https://formspree.io/f/mzzdvzeq" method="POST">
-             <label for="fname">First name:</label>
+                <main id="main2"></main>
+            <label for="fname">First name:</label>
              <input type="text" id="fname" name="fname"><br>
 
              <label for="lname">Last name:</label>
@@ -99,11 +101,10 @@
              </select>
              <br>
              <label for="number">Number of Attendees:</label>
-             <input type="number" id="number" name="number"> <br>
+             <input type="number" cols=4 id="number" name="number"> <br>
          
              <p>Allergies/Dietary Restrictions/Preferences:</p>
-                <textarea name="message" rows=8 cols=60>
-                </textarea><br>
+                <textarea name="message" rows=8></textarea><br>
              <input type="submit">
            </form>
            <p>Look out for a follow-up email from catering@berrysweet.com with your name and details of the events for a price estimate.</p>

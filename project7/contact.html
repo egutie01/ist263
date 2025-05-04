@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="ice cream icon" type="image/x-icon" href="images/favicon.ico">
     <title>Berry Sweet Creamery Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/nts7ykj.css">
@@ -10,7 +11,8 @@
 
 <body>
     <header>
-        <div class="logo"><a href="home.html"></a><img src="images/logo.svg" alt="Logo"></div>
+        <a href="#main3" class="skip">Skip to main content</a>
+        <div class="logo"><a href="home.html"><img src="images/logo.svg" alt="Logo"></a></div>
         <nav>
             <a href="menu.html">Menu</a> <span>|</span>
             <a href="contact.html">Contact & Support Us</a> 
@@ -23,7 +25,7 @@
 
     <article class="merch">
         <div class="merchimg">
-        <img src="images/shirt.png" alt="Berry Sweet Shirt Image">
+        <img src="images/shirt.png" alt="White Berry Sweet Shirt">
         </div>
         <div class = "merchtext">
             <h2>Berry Sweet Shirt</h2>
@@ -36,12 +38,12 @@
         <p>$55 | Youth XS-L & Adult XS-XL</p>
         </div>
         <div class="merchimg">
-        <img src="images/hoodie.jpg" alt="Berry Sweet Hoodie Image">
+        <img src="images/hoodie.jpg" alt="White Berry Sweet Hoodie">
         </div>
     </article>
     <article class="merch">
         <div class="merchimg">
-            <img src="images/bag.jpg" alt="Berry Sweet Tote Bag Image">
+            <img src="images/bag.jpg" alt="Beige Berry Sweet Tote Bag">
         </div>
         <div class = "merchtext">
         <h2>Berry Sweet <br> Tote Bag</h2>
@@ -54,7 +56,7 @@
         <p>$1</p>
         </div>
         <div class="merchimg">
-        <img src="images/pen.png" alt="Berry Sweet Pen Image">
+        <img src="images/pen.png" alt="White Berry Sweet Pen">
     </div>
     </article>
 
@@ -65,6 +67,7 @@
         <h2>Contact Us</h2>
 
         <form action="https://formspree.io/f/mzzdvzeq" method="POST">
+            <main id="main3"></main>
          <label for="fname">First name:</label>
          <input type="text" id="fname" name="fname"><br>
 
@@ -78,17 +81,25 @@
          <input type="text" id="subject" name="subject"><br>
      
          <p>Message:</p>
-         <textarea name="message" rows=8 cols=60>
-            </textarea><br>
+         <textarea name="message" rows=8></textarea><br>
          <input type="submit">
        </form>
        <p>Please leave your name and email if you'd like for us to respond back.</p>
-      </div>
+    <!--Animation-->
+    <div class="ice-cream-container">
+        <div class="scoop"></div>
+        <div class="drip drip1"></div>
+        <div class="drip drip2"></div>
+        <div class="drip drip3"></div>
+        <div class="cone"></div>
+     </div>
+  
+    </div>
+
       <div class="contactimg">
-      <img src="images/contact.jpg" alt="Contact Us  Image">
+      <img src="images/contact.jpg" alt="Pink Neon Sign of Ice Cream Solves Everything">
     </div>
 </section>
-
 
     <footer>
         &copy;2025
